@@ -3,6 +3,12 @@ package org.acme.kogito
 import org.acme.kogito.model.Person;
 
 
+declare ContactoInputOutputModel
+   input : ContactoInputModel
+   output : ContactoOutputModel
+end
+
+
 rule "Is adult" ruleflow-group "person"
 
 when
